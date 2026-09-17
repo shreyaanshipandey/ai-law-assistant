@@ -1,0 +1,49 @@
+# Python virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / secret files
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+**/node_modules/
+
+# Build files
+dist/
+build/
+.next/
+
+# Git
+.git/
+
+# System files
+.DS_Store
+Thumbs.db
+# Uploaded documents
+**/uploads/
+# Python virtual environments
+.venv/
+venv/
+env/
+backend/.venv/
+backend/venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+**/__pycache__/
+**/*.pyc
+**/uploads/
+**/.next/
+.env.local
+**/.env.local
+copy/
