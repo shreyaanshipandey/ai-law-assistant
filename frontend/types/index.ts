@@ -104,6 +104,7 @@ export interface CaseRecord {
   filing_date: string;
   next_hearing_date: string | null;
   court: string | null;
+  court: string;
   description: string | null;
   is_ongoing: boolean;
   created_at: string;
