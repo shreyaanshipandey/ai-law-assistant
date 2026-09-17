@@ -89,3 +89,22 @@ export interface Helpline {
   description: string;
   available: string;
 }
+export type CaseStatus =
+  | "Pending"
+  | "Adjourned"
+  | "Reserved for Orders"
+  | "Disposed"
+  | "Dismissed";
+
+export interface CaseRecord {
+  id: string;
+  case_number: string;
+  title: string;
+  status: CaseStatus;
+  filing_date: string;
+  next_hearing_date: string | null;
+  court: string | null;
+  description: string | null;
+  created_at: string;
+  updated_at: string;
+}
