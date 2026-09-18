@@ -107,6 +107,7 @@ export interface CaseRecord {
   petitioner_name: string;
   respondent_name: string;
   description: string | null;
+  stage_notes: string | null;
   is_ongoing: boolean;
   created_at: string;
   updated_at: string;
