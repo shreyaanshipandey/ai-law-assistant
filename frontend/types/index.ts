@@ -103,8 +103,7 @@ export interface CaseRecord {
   status: CaseStatus;
   filing_date: string;
   next_hearing_date: string | null;
-  court: string | null;
-  court: string;
+  court_name: string;
   description: string | null;
   is_ongoing: boolean;
   created_at: string;
